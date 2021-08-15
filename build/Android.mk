@@ -19,6 +19,7 @@ LOCAL_C_INCLUDES += $(PROJECT_INC) \
 					$(PROJECT_UTIL_INC) \
 
 LOCAL_SRC_FILES += $(PROJECT_SRC)/neon_col_swap_main.c \
+				   $(PROJECT_SRC)/neon_col_swap.c \
 				   $(PROJECT_UTIL_SRC)/android_arm_util.c 
 
 LOCAL_LDLIBS := -lm -llog
